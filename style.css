@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /*suavizando as fonts*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-smoothing: grayscale;
+}
+
+.flex {
+  display: flex;
+}
+
+#page {
+  height: 100vh;
+  background-color: #fafafa;
+}
+
+#page > * {
+  width: 50%;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+header img {
+  height: 3.375rem;
+  width: 9.93rem;
+}
+
+#page > div {
+  padding: 2.5rem 7rem 13rem;
+}
+
+main {
+  padding-top: 4.125rem;
+}
+
+#headline {
+  max-width: 21.93rem;
+}
+
+form {
+  margin-top: 2.5rem;
+  max-width: 21.93rem;
+}
+
+form button {
+  border-style: none;
+  background: #7C3AED;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 1rem 10.625rem;
+  font-weight: bold;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+form button:hover {
+  background-color: #9F67FF;
+  cursor: pointer;
+}
+
+form button:focus {
+  border: 1px solid black;
+}
+
+a {
+  text-decoration: none;
+  color: #7C3AED;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #7C3AED;
+}
+
+form input { 
+  width: 100%;
+  padding: 1rem 0.75rem;
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+form .input-wrapper + .input-wrapper{
+  margin: 2rem 0;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.eye {
+  width: 1.6rem;
+  height: 1.6rem;
+  position: absolute;
+  top: 47%;
+  right: 2%
+}
+
+.hide {
+  display: none;
+}
+
+/*remove o olho de senha do microsoft edge*/
+::-ms-reveal {
+  display: none;
+}
+
+.label-wrapper, .creat-account {
+  justify-content: space-between;
+}
+
+
+
