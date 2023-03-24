@@ -7,6 +7,10 @@
   -moz-osx-smoothing: grayscale;
 }
 
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
 .flex {
   display: flex;
 }
@@ -42,6 +46,29 @@ main {
   max-width: 21.93rem;
 }
 
+#headline > h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+#headline > p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #475569;
+  font-weight: 400;
+}
+
+label {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+input::placeholder {
+  font-size: 0.875rem;
+  color: #94A3B8;
+  line-height: 1.312rem;
+}
+
 form {
   margin-top: 2.5rem;
   max-width: 21.93rem;
@@ -70,6 +97,13 @@ form button:focus {
 a {
   text-decoration: none;
   color: #7C3AED;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.account{
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 a:hover {
@@ -85,6 +119,12 @@ form input {
   border-radius: 4px;
   width: 100%;
   margin-top: 0.5rem;
+  outline: 0
+}
+
+form input:hover, 
+form input:focus {
+  border-color: #7C3AED;
 }
 
 form .input-wrapper + .input-wrapper{
@@ -96,11 +136,12 @@ form .input-wrapper + .input-wrapper{
 }
 
 .eye {
-  width: 1.6rem;
-  height: 1.6rem;
+  width: 1.2rem;
+  height: 1.2rem;
   position: absolute;
-  top: 47%;
-  right: 2%
+  top: 54%;
+  right: 2%;
+  cursor: pointer;
 }
 
 .hide {

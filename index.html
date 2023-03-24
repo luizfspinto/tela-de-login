@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Tela de Login</title>
   </head>
   <body>
@@ -35,28 +41,40 @@
             </div>
             <div class="input-wrapper">
               <div class="label-wrapper flex">
-                <label for="password">Senha</label>
+                <label for="senha">Senha</label>
                 <a href="#">Esqueceu sua senha?</a>
               </div>
               <input
                 type="password"
-                id="password"
+                id="senha"
                 name="password"
                 placeholder="Digite sua senha"
                 required
               />
-              <img class="eye" src="assets/eye-off.svg" alt="">
-              <img class="eye hide" src="assets/eye.svg" alt="">
+              <img
+                onclick="togglePassowrd()"
+                class="eye"
+                src="assets/eye-off.svg"
+                alt=""
+              />
+              <img
+                onclick="togglePassowrd()"
+                class="eye hide"
+                src="assets/eye.svg"
+                alt=""
+              />
             </div>
             <button type="submit">Entrar</button>
             <div class="creat-account flex">
               <p>Ainda não tem uma conta?</p>
-              <a href="#">Inscreva-se</a>
+              <a class="account" href="#">Inscreva-se</a>
             </div>
           </form>
         </main>
       </div>
       <img src="assets/bg.jpg" alt="" />
     </div>
+
+    <script src="js/main.js"></script>
   </body>
 </html>
