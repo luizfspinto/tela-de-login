@@ -175,7 +175,10 @@ form .input-wrapper + .input-wrapper{
     padding: 2.5rem 3rem;
   }
   main {
-    padding-top: 1.8rem;
+    padding-top: 3rem;
+  }
+  html, body {
+    overflow-y: hidden;
   }
 }
 
