@@ -1,3 +1,4 @@
+/*Evento de olhar a senha*/
 function togglePassowrd() {
   window.document.querySelectorAll(".eye").forEach((eye) => {
     eye.classList.toggle("hide")
