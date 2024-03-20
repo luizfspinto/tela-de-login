@@ -8,8 +8,7 @@ Desenvolvido com objetivo de aprimorar cada vez mais as tecnologias Web e se des
   <img alt="Currículo" src="./.github/preview.jpg" width="100%">
 </p>
 
-## Demo
-https://teladelogin.lzfelipe.dev/
+
 
 ## 🚀 Tecnologias
 
